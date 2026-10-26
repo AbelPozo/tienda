@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Spider-Man 2",
+        "description": "Aventura de acción para PS5",
+        "price": "59.99€",
+        "stock": 10,
+        "category": "Videojuegos",
+        "image": "imagenes/spiderman2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Horizon Forbidden West",
+        "description": "Aventura de mundo abierto",
+        "price": "39.99€",
+        "stock": 8,
+        "category": "Videojuegos",
+        "image": "imagenes/horizon.jpg"
+    },
+    {
+        "id": 3,
+        "name": "God of War Ragnarök",
+        "description": "Aventura de acción y mitología",
+        "price": "49.99€",
+        "stock": 6,
+        "category": "Videojuegos",
+        "image": "imagenes/godofwar.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Minecraft",
+        "description": "Juego de construcción y supervivencia",
+        "price": "24.99€",
+        "stock": 15,
+        "category": "Videojuegos",
+        "image": "imagenes/minecraft.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dead by Daylight",
+        "description": "Juego multijugador de terror y supervivencia",
+        "price": "29.99€",
+        "stock": 8,
+        "category": "Videojuegos",
+        "image": "imagenes/deadbydaylight.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Mando inalámbrico",
+        "description": "Mando para jugar cómodamente",
+        "price": "59.99€",
+        "stock": 12,
+        "category": "Accesorios",
+        "image": "imagenes/mando.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Auriculares gaming",
+        "description": "Auriculares con micrófono integrado",
+        "price": "34.99€",
+        "stock": 9,
+        "category": "Accesorios",
+        "image": "imagenes/auriculares.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Teclado mecánico",
+        "description": "Teclado para ordenador gaming",
+        "price": "49.99€",
+        "stock": 7,
+        "category": "Accesorios",
+        "image": "imagenes/teclado.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Ratón gaming",
+        "description": "Ratón con varios botones",
+        "price": "24.99€",
+        "stock": 14,
+        "category": "Accesorios",
+        "image": "imagenes/raton.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Alfombrilla gaming",
+        "description": "Alfombrilla para ratón de gran tamaño",
+        "price": "14.99€",
+        "stock": 0,
+        "category": "Accesorios",
+        "image": "imagenes/alfombrilla.jpg"
+    },
+    {
+        "id": 11,
+        "name": "PlayStation 5",
+        "description": "Consola de videojuegos de Sony",
+        "price": "549.99€",
+        "stock": 5,
+        "category": "Consolas y componentes",
+        "image": "imagenes/ps5.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Xbox Series X",
+        "description": "Consola de videojuegos de Microsoft",
+        "price": "549.99€",
+        "stock": 4,
+        "category": "Consolas y componentes",
+        "image": "imagenes/xbox.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Nintendo Switch 2",
+        "description": "Consola híbrida portátil y de sobremesa",
+        "price": "469.99€",
+        "stock": 6,
+        "category": "Consolas y componentes",
+        "image": "imagenes/switch2.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Tarjeta gráfica",
+        "description": "Componente para mejorar los gráficos del PC",
+        "price": "399.99€",
+        "stock": 3,
+        "category": "Consolas y componentes",
+        "image": "imagenes/grafica.jpg"
+    },
+    {
+        "id": 15,
+        "name": "SSD para juegos",
+        "description": "Unidad de almacenamiento para ordenador",
+        "price": "89.99€",
+        "stock": 11,
+        "category": "Consolas y componentes",
+        "image": "imagenes/ssd.jpg"
+    }
+]
