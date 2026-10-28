@@ -6,7 +6,7 @@
         "price": "59.99€",
         "stock": 10,
         "category": "Videojuegos",
-        "image": "imagenes/spiderman2.jpg"
+        "image": "imagenes/spiderman2.webp"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "price": "39.99€",
         "stock": 8,
         "category": "Videojuegos",
-        "image": "imagenes/horizon.jpg"
+        "image": "imagenes/horizon.webp"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "price": "49.99€",
         "stock": 6,
         "category": "Videojuegos",
-        "image": "imagenes/godofwar.jpg"
+        "image": "imagenes/godofwar.webp"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "price": "24.99€",
         "stock": 15,
         "category": "Videojuegos",
-        "image": "imagenes/minecraft.jpg"
+        "image": "imagenes/minecraft.webp"
     },
     {
         "id": 5,
@@ -42,16 +42,16 @@
         "price": "29.99€",
         "stock": 8,
         "category": "Videojuegos",
-        "image": "imagenes/deadbydaylight.jpg"
+        "image": "imagenes/dbd.webp"
     },
     {
         "id": 6,
         "name": "Mando inalámbrico",
-        "description": "Mando para jugar cómodamente",
+        "description": "Mando para PS5",
         "price": "59.99€",
         "stock": 12,
         "category": "Accesorios",
-        "image": "imagenes/mando.jpg"
+        "image": "imagenes/mando.webp"
     },
     {
         "id": 7,
@@ -60,34 +60,34 @@
         "price": "34.99€",
         "stock": 9,
         "category": "Accesorios",
-        "image": "imagenes/auriculares.jpg"
+        "image": "imagenes/casco.webp"
     },
     {
         "id": 8,
         "name": "Teclado mecánico",
-        "description": "Teclado para ordenador gaming",
+        "description": "Teclado para ordenador",
         "price": "49.99€",
         "stock": 7,
         "category": "Accesorios",
-        "image": "imagenes/teclado.jpg"
+        "image": "imagenes/teclado.webp"
     },
     {
         "id": 9,
         "name": "Ratón gaming",
-        "description": "Ratón con varios botones",
+        "description": "Ratón inalámbrico",
         "price": "24.99€",
         "stock": 14,
         "category": "Accesorios",
-        "image": "imagenes/raton.jpg"
+        "image": "imagenes/raton.webp"
     },
     {
         "id": 10,
         "name": "Alfombrilla gaming",
-        "description": "Alfombrilla para ratón de gran tamaño",
+        "description": "Alfombrilla para ratón",
         "price": "14.99€",
-        "stock": 0,
+        "stock": 8,
         "category": "Accesorios",
-        "image": "imagenes/alfombrilla.jpg"
+        "image": "imagenes/alfombra.webp"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "price": "549.99€",
         "stock": 5,
         "category": "Consolas y componentes",
-        "image": "imagenes/ps5.jpg"
+        "image": "imagenes/ps5.webp"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "price": "549.99€",
         "stock": 4,
         "category": "Consolas y componentes",
-        "image": "imagenes/xbox.jpg"
+        "image": "imagenes/xbox.webp"
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "price": "469.99€",
         "stock": 6,
         "category": "Consolas y componentes",
-        "image": "imagenes/switch2.jpg"
+        "image": "imagenes/ns2.webp"
     },
     {
         "id": 14,
@@ -123,7 +123,7 @@
         "price": "399.99€",
         "stock": 3,
         "category": "Consolas y componentes",
-        "image": "imagenes/grafica.jpg"
+        "image": "imagenes/tarjeta.webp"
     },
     {
         "id": 15,
@@ -132,6 +132,6 @@
         "price": "89.99€",
         "stock": 11,
         "category": "Consolas y componentes",
-        "image": "imagenes/ssd.jpg"
+        "image": "imagenes/ssd.webp"
     }
 ]
