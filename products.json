@@ -3,135 +3,135 @@
         "id": 1,
         "name": "Spider-Man 2",
         "description": "Aventura de acción para PS5",
-        "price": "59.99€",
+        "price": 59.99,
         "stock": 10,
         "category": "Videojuegos",
-        "image": "imagenes/spiderman2.webp"
+        "image": "spiderman2.webp"
     },
     {
         "id": 2,
         "name": "Horizon Forbidden West",
         "description": "Aventura de mundo abierto",
-        "price": "39.99€",
+        "price": 39.99,
         "stock": 8,
         "category": "Videojuegos",
-        "image": "imagenes/horizon.webp"
+        "image": "horizon.webp"
     },
     {
         "id": 3,
         "name": "God of War Ragnarök",
         "description": "Aventura de acción y mitología",
-        "price": "49.99€",
+        "price": 49.99,
         "stock": 6,
         "category": "Videojuegos",
-        "image": "imagenes/godofwar.webp"
+        "image": "godofwar.webp"
     },
     {
         "id": 4,
         "name": "Minecraft",
         "description": "Juego de construcción y supervivencia",
-        "price": "24.99€",
+        "price": 24.99,
         "stock": 15,
         "category": "Videojuegos",
-        "image": "imagenes/minecraft.webp"
+        "image": "minecraft.webp"
     },
     {
         "id": 5,
         "name": "Dead by Daylight",
         "description": "Juego multijugador de terror y supervivencia",
-        "price": "29.99€",
+        "price": 29.99,
         "stock": 8,
         "category": "Videojuegos",
-        "image": "imagenes/dbd.webp"
+        "image": "dbd.webp"
     },
     {
         "id": 6,
         "name": "Mando inalámbrico",
         "description": "Mando para PS5",
-        "price": "59.99€",
+        "price": 59.99,
         "stock": 12,
         "category": "Accesorios",
-        "image": "imagenes/mando.webp"
+        "image": "mando.webp"
     },
     {
         "id": 7,
         "name": "Auriculares gaming",
         "description": "Auriculares con micrófono integrado",
-        "price": "34.99€",
+        "price": 34.99,
         "stock": 9,
         "category": "Accesorios",
-        "image": "imagenes/casco.webp"
+        "image": "casco.webp"
     },
     {
         "id": 8,
         "name": "Teclado mecánico",
         "description": "Teclado para ordenador",
-        "price": "49.99€",
+        "price": 49.99,
         "stock": 7,
         "category": "Accesorios",
-        "image": "imagenes/teclado.webp"
+        "image": "teclado.webp"
     },
     {
         "id": 9,
         "name": "Ratón gaming",
         "description": "Ratón inalámbrico",
-        "price": "24.99€",
+        "price": 24.99,
         "stock": 14,
         "category": "Accesorios",
-        "image": "imagenes/raton.webp"
+        "image": "raton.webp"
     },
     {
         "id": 10,
         "name": "Alfombrilla gaming",
         "description": "Alfombrilla para ratón",
-        "price": "14.99€",
+        "price": 14.99,
         "stock": 8,
         "category": "Accesorios",
-        "image": "imagenes/alfombra.webp"
+        "image": "alfombra.webp"
     },
     {
         "id": 11,
         "name": "PlayStation 5",
         "description": "Consola de videojuegos de Sony",
-        "price": "549.99€",
+        "price": 549.99,
         "stock": 5,
         "category": "Consolas y componentes",
-        "image": "imagenes/ps5.webp"
+        "image": "ps5.webp"
     },
     {
         "id": 12,
         "name": "Xbox Series X",
         "description": "Consola de videojuegos de Microsoft",
-        "price": "549.99€",
+        "price": 549.99,
         "stock": 4,
         "category": "Consolas y componentes",
-        "image": "imagenes/xbox.webp"
+        "image": "xbox.webp"
     },
     {
         "id": 13,
         "name": "Nintendo Switch 2",
         "description": "Consola híbrida portátil y de sobremesa",
-        "price": "469.99€",
+        "price": 469.99,
         "stock": 6,
         "category": "Consolas y componentes",
-        "image": "imagenes/ns2.webp"
+        "image": "ns2.webp"
     },
     {
         "id": 14,
         "name": "Tarjeta gráfica",
         "description": "Componente para mejorar los gráficos del PC",
-        "price": "399.99€",
+        "price": 399.99,
         "stock": 3,
         "category": "Consolas y componentes",
-        "image": "imagenes/tarjeta.webp"
+        "image": "tarjeta.webp"
     },
     {
         "id": 15,
         "name": "SSD para juegos",
         "description": "Unidad de almacenamiento para ordenador",
-        "price": "89.99€",
+        "price": 89.99,
         "stock": 11,
         "category": "Consolas y componentes",
-        "image": "imagenes/ssd.webp"
+        "image": "ssd.webp"
     }
 ]
