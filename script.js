@@ -2,6 +2,7 @@ const productHolder = document.getElementById("productos");
 
 let products = [];
 let cart = [];
+let userData = {};
 
 function showProducts(category) {
     productHolder.innerHTML = "";
@@ -159,4 +160,10 @@ document.getElementById("consolas").addEventListener("click", function() {
 
 document.getElementById("verCesta").addEventListener("click", function() {
     showCart();
+});
+
+fetch("userData.json")
+.then(response => response.json())
+.then(data => {
+    userData = data;
 });
