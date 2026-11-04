@@ -39,7 +39,11 @@ function showProducts(category) {
 
                 cart.forEach(item => {
                     if (item.product.id === product.id) {
+
+                        if (item.quantity < product.stock) {
                         item.quantity++;
+                        }
+
                         found = true;
                     }
                 });
@@ -71,10 +75,38 @@ function showCart() {
 
     cartHolder.innerHTML = "";
 
+    const closeButton = document.createElement("button");
+    closeButton.innerText = "Cerrar";
+
+    closeButton.addEventListener("click", function() {
+        cartHolder.close();
+    });
+
+    cartHolder.appendChild(closeButton);
+
     const titleElement = document.createElement("h2");
     titleElement.innerText = "Mi cesta";
 
     cartHolder.appendChild(titleElement);
+
+    const nameElement = document.createElement("p");
+    nameElement.innerText = "Cliente: " + userData.name;
+
+    const addressElement = document.createElement("p");
+    addressElement.innerText = "Dirección de envío: " + userData.address;
+
+    cartHolder.appendChild(nameElement);
+    cartHolder.appendChild(addressElement);
+
+    if (cart.length === 0) {
+
+        const emptyElement = document.createElement("p");
+        emptyElement.innerText = "La cesta está vacía.";
+
+        cartHolder.appendChild(emptyElement);
+
+        return;
+    }
 
     let total = 0;
 
@@ -95,7 +127,9 @@ function showCart() {
         addButton.innerText = "+";
 
         addButton.addEventListener("click", function() {
-            item.quantity++;
+            if (item.quantity < item.product.stock) {
+                item.quantity++;
+            }
             showCart();
         });
 
@@ -133,6 +167,32 @@ function showCart() {
     totalElement.innerText = "Total: " + total.toFixed(2) + " €";
 
     cartHolder.appendChild(totalElement);
+
+    if (cart.length) {
+        
+        const buyButton = document.createElement("button");
+        buyButton.innerText = "Finalizar compra";
+
+        buyButton.addEventListener("click", function() {
+
+            alert("Enviando pedido a " + userData.name + " en la dirección " + userData.address);
+
+            alert("¡Compra realizada correctamente!");
+
+            cart = [];
+
+            document.getElementById("verCesta").innerText = "Ver cesta (0)";
+
+            cartHolder.innerHTML = "";
+
+            const messageElement = document.createElement("p");
+            messageElement.innerText = "Tu compra ha sido realizada correctamente. La cesta está vacia.";
+            
+            cartHolder.appendChild(messageElement);
+        });
+
+        cartHolder.appendChild(buyButton);
+    }
 }
 
 fetch("products.json")
@@ -142,7 +202,7 @@ fetch("products.json")
     showProducts("Todo");
 });
 
-fetch("user.json")
+fetch("userData.json")
 .then(response => response.json())
 .then(data => {
     userData = data;
@@ -166,11 +226,10 @@ document.getElementById("consolas").addEventListener("click", function() {
 
 document.getElementById("verCesta").addEventListener("click", function() {
     showCart();
+
+    document.getElementById("cesta").showModal();
 });
 
-document.getElementById("finalizarcompra").addEventListener("click", function() {
-    if (cart.length === 0) {
-        alert("La cesta está vacía.");
-        return;
-    }
+document.getElementById("cerrarCesta").addEventListener("click", function() {
+    document.getElementById("cesta").close();
 });
