@@ -2,6 +2,7 @@ const productHolder = document.getElementById("productos");
 
 let products = [];
 let cart = [];
+let userData = [];
 
 function showProducts(category) {
     productHolder.innerHTML = "";
@@ -141,6 +142,12 @@ fetch("products.json")
     showProducts("Todo");
 });
 
+fetch("user.json")
+.then(response => response.json())
+.then(data => {
+    userData = data;
+});
+
 document.getElementById("todo").addEventListener("click", function() {
     showProducts("Todo");
 });
@@ -159,4 +166,11 @@ document.getElementById("consolas").addEventListener("click", function() {
 
 document.getElementById("verCesta").addEventListener("click", function() {
     showCart();
+});
+
+document.getElementById("finalizarcompra").addEventListener("click", function() {
+    if (cart.length === 0) {
+        alert("La cesta está vacía.");
+        return;
+    }
 });
