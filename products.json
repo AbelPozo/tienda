@@ -94,7 +94,7 @@
         "name": "PlayStation 5",
         "description": "Consola de videojuegos de Sony",
         "price": 549.99,
-        "stock": 5,
+        "stock": 0,
         "category": "Consolas y componentes",
         "image": "ps5.webp"
     },
