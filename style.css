@@ -3,3 +3,132 @@ body {
     color: white;
     font-family: Arial, sans-serif;
 }
+
+h1 {
+    color: #a970ff;
+    text-align: center;
+    font-size: 40px;
+}
+
+body > p {
+    text-align: center;
+    font-size: 18px;
+    color: #bdbdc9;
+}
+
+h2 {
+    color: #a970ff;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+#categorias {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#categorias button {
+    background-color: #743bd1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#categorias button:hover {
+    background-color: #965df0;
+}
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#productos div {
+    background-color: #222232;
+    width: 220px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#productos img {
+    width: 180px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+#productos button {
+    background-color: #743bd1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#productos button:hover {
+    background-color: #965df0;
+}
+
+#verCesta {
+    background-color: #a970ff;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    margin: 25px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#verCesta:hover {
+    background-color: #8c4de0;
+}
+
+#cesta {
+    background-color: #222232;
+    color: white;
+    border: 2px solid #743bd1;
+    margin: auto;
+    border-radius: 12px;
+    padding: 25px;
+    width: 450px;
+}
+
+#cesta::backdrop {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#cesta button {
+    background-color: #743bd1;
+    color: white;
+    border: none;
+    padding: 9px 14px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#cesta button:hover {
+    background-color: #965df0;
+}
+
+#cesta button:last-child {
+    background-color: #238636;
+    font-weight: bold;
+    padding: 12px 18px;
+}
+
+#cesta button:last-child:hover {
+    background-color: #2ea043;
+}
